@@ -37,7 +37,7 @@ public class Smoker extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.format("<< %s >> has completed to make cigarette\n", smokerType);
+        System.out.format("<< %s >> has completed to make cigarette - Table is clean now\n", smokerType);
     }
 
     private void smokeCigarette() {
